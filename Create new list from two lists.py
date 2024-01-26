@@ -7,7 +7,12 @@ def merge_list(list1, list2):
     for num in list1:
         if num % 2 != 0:
             result_list.append(num)
-    
+
 #create for loop for second list
+    
+    for num in list2:
+        if num % 2 == 0:
+            result_list.append(num)
+    return result_list
 
 #print result
