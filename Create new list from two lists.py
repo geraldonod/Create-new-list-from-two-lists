@@ -16,3 +16,8 @@ def merge_list(list1, list2):
     return result_list
 
 #print result
+
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
+
+print("Result list:", merge_list(list1, list2))
